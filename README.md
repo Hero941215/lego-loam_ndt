@@ -4,7 +4,7 @@
 ** **
 
 ## 0. Features
-Build a loosely coupled mapping system with Fast-lio2 as the front-end and a sliding window based laser BA as the back-end. Integrate the latest BA algorithms such as BALM2 and PA into the backend of the system to refine voxel maps. The improved system can achieve centimeter level positioning accuracy in structured scenes such as buildings, with better mapping quality than [FAST-LIO2](https://github.com/hku-mars/FAST_LIO).
+[LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM) is a 3D Lidar SLAM with loop detection function, which can be used for large-scale scene mapping. The ndt_localizer can achieve general scene representation using Gaussian distribution voxels and perform real-time localization.
 
 ## 1. Prerequisites
 ### 1.1 **Ubuntu** and **ROS**
