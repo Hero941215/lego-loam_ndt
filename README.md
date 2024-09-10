@@ -1,5 +1,5 @@
 # lego-loam_ndt
-**we add map save service in [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM), ndt_localier is used to complete localization work based on normal distribution voxel map.**
+**we add map save service in [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM), ndt_localizer is used to complete localization work based on normal distribution voxel map.**
 
 ** **
 
