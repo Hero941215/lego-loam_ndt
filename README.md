@@ -51,6 +51,12 @@ roslaunch lego_loam run.launch
 
 roslaunch ndt_localizer ndt_localizer.launch
 
+#### Config map loader
+Move your map pcd file (.pcd) to the map folder inside this project (`ndt_localizer/map`), change the pcd_path in `map_loader.launch` to you pcd path, for example:
+
+```xml
+<arg name="pcd_path"  default="$(find ndt_localizer)/map/kaist02.pcd"/>
+```
 
 ## 4. Acknowledgments
 
