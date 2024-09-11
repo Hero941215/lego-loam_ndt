@@ -60,4 +60,4 @@ Move your map pcd file (.pcd) to the map folder inside this project (`ndt_locali
 
 ## 4. Acknowledgments
 
-Thanks for [LeGo-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM), [ndt_localizer](https://github.com/hku-mars/BALM).
+Thanks for [LeGo-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM), [ndt_localizer](https://github.com/AbangLZU/ndt_localizer).
