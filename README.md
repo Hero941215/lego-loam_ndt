@@ -1,8 +1,6 @@
 # lego-loam_ndt
 **we add map save service in [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM), ndt_localizer is used to complete localization work based on normal distribution voxel map.**
 
-** **
-
 ## 0. Features
 [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM) is a 3D Lidar SLAM with loop detection function, which can be used for large-scale scene mapping. The ndt_localizer can achieve general scene representation using Gaussian distribution voxels and perform real-time localization.
 
