@@ -23,14 +23,13 @@ Clone the repository and catkin_make:
 
 ```
     cd ~/$A_ROS_DIR$/src
-    git clone https://github.com/Hero941215/fast-lio2_swba
-    cd fast-lio2_swba
+    git clone https://github.com/Hero941215/lego-loam_ndt
+    cd lego-loam_ndt
     git submodule update --init
     cd ../..
     catkin_make
     source devel/setup.bash
 ```
-- Remember to source the livox_ros_driver before build (follow 1.3 **livox_ros_driver**)
 
 ## 3. Run
 ### 3.1. **run with hilti dataset**
@@ -39,9 +38,9 @@ roslaunch robotrun tight_slam_ouster_indoor.launch (hilti-2021)
 
 roslaunch robotrun tight_slam_pandar_indoor.launch (hilti-2022)
 
-### 3.2. **run with UrbanNav dataset**
+### 3.2. **run ndt_localizer**
 
-roslaunch robotrun tight_slam_velodyne_outdoor.launch
+roslaunch ndt_localizer ndt_localizer.launch
 
 ### 3.3. **run with livox mid-360**
 
