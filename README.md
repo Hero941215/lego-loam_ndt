@@ -17,6 +17,17 @@ PCL    >= 1.8,   Follow [PCL Installation](http://www.pointclouds.org/downloads/
 
 Eigen  >= 3.3.3, Follow [Eigen Installation](http://eigen.tuxfamily.org/index.php?title=Main_Page).
 
+### 1.3. **gtsam**
+
+```
+  wget -O ~/Downloads/gtsam.zip https://github.com/borglab/gtsam/archive/4.0.0-alpha2.zip
+  cd ~/Downloads/ && unzip gtsam.zip -d ~/Downloads/
+  cd ~/Downloads/gtsam-4.0.0-alpha2/
+  mkdir build && cd build
+  cmake ..
+  sudo make install
+```
+
 ## 2. Build
 
 Clone the repository and catkin_make:
@@ -32,11 +43,9 @@ Clone the repository and catkin_make:
 ```
 
 ## 3. Run
-### 3.1. **run with hilti dataset**
+### 3.1. **run lego-loam**
 
-roslaunch robotrun tight_slam_ouster_indoor.launch (hilti-2021)
-
-roslaunch robotrun tight_slam_pandar_indoor.launch (hilti-2022)
+roslaunch lego_loam run.launch
 
 ### 3.2. **run ndt_localizer**
 
