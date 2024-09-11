@@ -17,7 +17,7 @@ PCL    >= 1.8,   Follow [PCL Installation](http://www.pointclouds.org/downloads/
 
 Eigen  >= 3.3.3, Follow [Eigen Installation](http://eigen.tuxfamily.org/index.php?title=Main_Page).
 
-### 1.3. **gtsam**
+### 1.3. **Gtsam**
 
 ```
   wget -O ~/Downloads/gtsam.zip https://github.com/borglab/gtsam/archive/4.0.0-alpha2.zip
@@ -51,10 +51,7 @@ roslaunch lego_loam run.launch
 
 roslaunch ndt_localizer ndt_localizer.launch
 
-### 3.3. **run with livox mid-360**
-
-roslaunch robotrun tight_slam_mid360_indoor.launch
 
 ## 4. Acknowledgments
 
-Thanks for LOAM(J. Zhang and S. Singh. LOAM: Lidar Odometry and Mapping in Real-time), [FAST-LIO2](https://github.com/hku-mars/FAST_LIO), [BALM2](https://github.com/hku-mars/BALM).
+Thanks for [LeGo-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM), [ndt_localizer](https://github.com/hku-mars/BALM).
